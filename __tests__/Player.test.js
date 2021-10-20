@@ -5,8 +5,6 @@ jest.mock('../lib/Potion');
 console.log(new Potion());
 
 const Player = require('../lib/Player');
-const { test, expect } = require('@jest/globals');
-
 
 
 test('creates a player object', () => {
